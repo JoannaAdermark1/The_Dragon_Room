@@ -1,3 +1,7 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+name = input('Enter your name! ')
+print(f'Greetings {name}!')
+print("welcaome to The Dragon Room Game! ")
+print("You find yourself in front of two doors. Do you go through door #1 or door #2?")
+print(" It is said that deep within the cavern, a dragon guards a priceless treasure, ")
+print("but those who enter must face a series of challenges and make crucial decisions")
+print("Your heart beats faster as you decide whether to enter.")
