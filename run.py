@@ -1,58 +1,97 @@
-name = input('Enter your name! ')
-print(f'Greetings {name}!')
+inventory = []
 
-### print a welcome message
-print("Welcome to the Dragon Room! ")
-print("You find yourself at the entrance of a dark cavern ")
-print("The legends spoke of this place: The Dragon Room.")
-print("Do you wish to enter the Gold path, Darkness path, or cries path? ")
-   
-### prompt user for a choice
+def start_game():
+    print("Welcome to the Adventure Game!")
+    print("You find yourself in front of three doors. Which door do you go through? Door #1, Door #2, or Door #3?")
+    choice = input("> ")
 
- Choice = input("Which path do you choose? (Gold/Darkness): ")
-
-    if (roomchoice == "Gold path"):
-        print("you enter the Gold path.")
-        print("You find yourself collecting gold coins but then fall into a pit.")
-        print("You're given a choice to buy a rope with some of your gold to climb out")
-        print("Do you give up some gold for a rope (Yes/No):")
-
-        if(ropechoice == "yes"):
-            print("you climb out and leave with your other gold safely")
-        elif(ropechoice == "no"):
-            print("Your weight from the gold pulls you further down, and you're trapped.")
-            print("dragon find you and eat you")
-        else:
-        end_game("You remain outside, forever wondering what adventures lay within the Dragon .")
-
-
-    if (roomchoice == "darkness path"):
-        print("you eneter darkness path.")
-        print(" Here, you're given the choice between a sword bathed in light and a cloak of shadows")
-        print("Depending on your choice,")
-        print("you'll either face goblins (with the sword) or stealthily navigate the path (with the cloak)")
-        print("Which do you choose? (Sword/Cloak): ")
-
-       if (choice == "Sword"):
-           print("Wielding the sword, you encounter goblins. They're blinded by its glow, giving you the advantage.")
-           print("After defeating them, you find a door with a dragon emblem.")
-       elif (choice == "Cloak"):
-        print("Wrapped in shadows, you bypass creatures unseen. At the end of the path, there's a door with the dragon emblem.")
-       else:
-        end_game("Lost in uncertainty, a creature of the dark finds you.")
-
-     if (roomchoice == "cries path"):
-        print("Following the distant cries, you discover a prison cell. Inside is an elf, bound and trapped.")
-    choice = input("Do you release the elf? (Release/Leave): ")
-    if choice == "Release":
-        print("Grateful, the elf guides you through hidden passageways, leading you directly to a door with a dragon emblem.")
-        dragon_door()
+    if choice == "1":
+        dragon_room()
+    elif choice == "2":
+        treasure_room()
+    elif choice == "3":
+        magic_room()
     else:
-        end_game("The cries of the elf haunt you as you wander aimlessly, eventually finding yourself back at the cavern entrance.")
+        print("Invalid choice. Game over!")
+        play_again()
 
+def dragon_room():
+    print("\nYou have entered the Dragon's lair!")
+    print("The dragon is sleeping. What do you want to do?")
+    print("1. Steal some of its gold.")
+    print("2. Try to sneak around it to the exit.")
+    
+    choice = input("> ")
 
+    if choice == "1":
+        print("\nThe dragon wakes up and burns you with its fire. Game over!")
+        play_again()
+    elif choice == "2":
+        if "invisibility potion" in inventory:
+            print("\nUsing the invisibility potion, you sneak past the dragon and escape. You win!")
+            play_again()
+        else:
+            print("\nThe dragon wakes up and sees you. Game over!")
+            play_again()
+    else:
+        print("Invalid choice. Game over!")
+        play_again()
 
+def treasure_room():
+    print("\nYou've found the treasure room!")
+    print("There's a chest in front of you. Do you want to open it?")
+    print("1. Yes, I want to see what's inside.")
+    print("2. No, it might be a trap.")
+    
+    choice = input("> ")
 
+    if choice == "1":
+        print("\nThe chest contains a priceless gem. You add it to your inventory.")
+        inventory.append("gem")
+        play_again()
+    elif choice == "2":
+        print("\nYou decide to leave the room without the treasure.")
+        play_again()
+    else:
+        print("Invalid choice. Game over!")
+        play_again()
 
+def magic_room():
+    print("\nYou've entered a room filled with glowing potions.")
+    print("A sign reads: 'Choose wisely, one grants invisibility, others bring misfortune.'")
+    print("Do you:")
+    print("1. Drink a potion.")
+    print("2. Leave the room without drinking anything.")
 
+    choice = input("> ")
 
+    if choice == "1":
+        potion_choice = input("\nThere are three potions: red, blue, and green. Which one do you drink? > ")
+
+        if potion_choice == "blue":
+            print("\nYou feel light and transparent... You've gained the power of invisibility!")
+            inventory.append("invisibility potion")
+            play_again()
+        else:
+            print("\nYou feel dizzy and fall unconscious. Game over!")
+            play_again()
+    elif choice == "2":
+        print("\nYou decide to leave the room without drinking anything.")
+        play_again()
+    else:
+        print("Invalid choice. Game over!")
+        play_again()
+
+def play_again():
+    print("\nDo you want to play again? (yes or no)")
+    choice = input("> ").lower()
+    if choice == "yes":
+        inventory.clear()
+        start_game()
+    elif choice == "no":
+        print("Thanks for playing!")
+    else:
+        print("Invalid choice. Exiting game.")
+        exit()
+
+start_game()
