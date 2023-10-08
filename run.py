@@ -23,7 +23,7 @@ print("Do you wish to enter the Gold path, Darkness path, or cries path? ")
             print("Your weight from the gold pulls you further down, and you're trapped.")
             print("dragon find you and eat you")
         else:
-        end_game("You remain outside, forever wondering what adventures lay within the Dragon Room.")
+        end_game("You remain outside, forever wondering what adventures lay within the Dragon .")
 
 
     if (roomchoice == "darkness path"):
