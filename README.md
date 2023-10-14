@@ -54,8 +54,12 @@ Copy the game code into a Python file
 Run the game in your terminal or command prompt:
 Follow the on-screen prompts and make your choices.
 
-Credits 
-I give credits to https://youtu.be/u8X6TiJA8as?si=yDFeCzAcpqjCBGgI
+## Credits 
+Basic structure and understanding about python adventures are taken from
+LeMaster Tech
+https://youtu.be/u8X6TiJA8as?si=yDFeCzAcpqjCBGgI
+
+Shaun Halverson
 and https://youtu.be/ORsJn-71__0?si=t5m-KueXCC8uNOoj
 
 ## License
