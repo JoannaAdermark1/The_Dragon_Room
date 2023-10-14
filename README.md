@@ -54,6 +54,68 @@ Copy the game code into a Python file
 Run the game in your terminal or command prompt:
 Follow the on-screen prompts and make your choices.
 
+# Testing
+
+## Requirements:
+Python 3.x
+Test Cases:
+1. Test User Name Input
+2. Steps:
+Run the game.
+Enter a name when prompted.
+Verify that the game greets you using the provided name.
+
+### 2. Test Door Choices
+Purpose: Ensure that all door choices lead to the correct rooms.
+ the "invisibility potion" or "strength potion" in the inventory affects the outcomes.
+Run the game.
+Purpose: Ensure that the game correctly captures and displays the user's name.
+![Screenshot 2023-10-14 at 21 36 57](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/77056c36-3373-4414-98f4-ac6891a50660)
+
+### Choose a door (1, 2, or 3).
+Verify that the game takes you to the correct room (Dragon, Treasure, or Magic room).
+3. Test Inventory System
+Purpose: Ensure items are correctly added to or removed from the inventory.
+
+### Navigate to the Treasure Room.
+Choose to open the chest.
+Verify that the gem is added to the inventory.
+Restart the game and verify that the inventory is cleared.
+![Screenshot 2023-10-14 at 23 07 57](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/1a0834f8-aea8-4354-9334-b46b3bad01fa)
+
+### Test Potion Choices in Magic Room
+In the Magic room, here is the test of the two choices: drink a potion and leave the room.
+When choosing to drink a potion, test all three options: blue, red, and green.
+Ensure that the selected potion (invisibility or strength) affects the game's outcome.
+Confirm that choosing "green" returns you to the start of the game.
+
+![Screenshot 2023-10-14 at 23 27 41](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/e8c95840-d952-4e8b-bf88-39b6a1e05628)
+![Screenshot 2023-10-14 at 23 28 31](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/9810c12f-ccc8-4a88-b218-f72110b34deb)
+
+### Test Dragon Room Scenarios
+In the Dragon room, test all three choices: steal gold, sneak around, confront the dragon.
+Check that the dragon's reactions are appropriate based on your choices.
+Verify that having the "invisibility potion" or "strength potion" in the inventory affects the outcomes.
+####  Test Play Again Feature
+ Ensure the game restarts correctly and clears the inventory.
+ ![Screenshot 2023-10-14 at 23 54 24](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/6cc49c2a-97a0-4108-929a-4c40a2905800)
+![Screenshot 2023-10-14 at 23 58 39](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/ca922b72-ff22-4f6b-899c-2edc800e2620)
+
+### test invalid input
+At any choice prompt, enter an invalid input (e.g., a letter or an out-of-range number).
+Verify that the game informs you of the invalid choice.
+![Screenshot 2023-10-15 at 00 11 46](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/0dc8f8fc-edbe-48f1-9b5d-530a50747901)
+
+### Play Again
+Test the "play again" feature at the end of each scenario.
+Confirm that choosing "yes" resets the game, clearing the inventory.
+Verify that choosing "no" exits the game with a farewell message.
+
+A brief description of the issue.
+Steps to reproduce the issue.
+Expected behavior and actual behavior.
+Report these findings to joanna.adermark@tutanota.com
+
 ## Credits 
 Basic structure and understanding about python adventures are taken from
 LeMaster Tech
@@ -65,39 +127,3 @@ and https://youtu.be/ORsJn-71__0?si=t5m-KueXCC8uNOoj
 ## License
 This game is open-source and free to use, modify, and distribute. Enjoy and have fun!
 
-
-
-
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome JoannaAdermark1 Adermark,
-
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
