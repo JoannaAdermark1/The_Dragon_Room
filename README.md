@@ -1,3 +1,71 @@
+# Adventure Game
+Adventure Game is a text-based decision game where you, the player, are presented with a series of choices.
+Your decisions influence the outcome of the story, leading to various endings.
+
+## Table of Contents
+. Game Overview
+. How to Play
+. Decision Points
+. Getting Started
+. License
+
+## Game Overview
+After introducing yourself, you find yourself in front of three mysterious doors. 
+Each door leads to a different adventure:
+
+. Door 1: Enter the Dragon's Lair
+. Door 2: Discover a Treasure Room
+. Door 3: Step into a Magic Room with Glowing Potions
+
+Your decisions will determine your fate in this game!
+
+## Game Mechanics
+Begin by entering your name.
+Choose one of the three doors to enter a room.
+Make decisions based on the room's narrative and potential items in your inventory.
+Potions from the Magic Room can greatly affect the outcome in the Dragon Room.
+The game continues until you decide to stop or meet an unfortunate end.
+
+Remember, each choice you make can lead to a different outcome. 
+Play multiple times to explore all possible endings!
+
+## Decision Points
+
+### Dragon's Lair: 
+Decide to steal the dragon's gold, sneak around, or confront the dragon.
+### Treasure Room: 
+Choose to open a chest or leave without seeing what's inside.
+### Magic Room: 
+Drink a potion to get an ability or leave without drinking anything.
+Decisions in one room might influence the outcome in another!
+
+##### Enhanced User Input: 
+I used the helper function get_user_input() to take care of trimming and lowercasing the input.
+##### Changed the Potion Logic: 
+I've made the logic for the potions more straightforward. Now there is one potion for invisibility, 
+one for strength, and one that takes the player back to the start. 
+This will makes the game's progression clearer.
+##### Play Again Logic: 
+The logic for playing the game again or quitting has been simplified, 
+which makes it more efficient.
+
+# Getting Started
+Copy the game code into a Python file
+Run the game in your terminal or command prompt:
+Follow the on-screen prompts and make your choices.
+
+Credits 
+I give credits to https://youtu.be/u8X6TiJA8as?si=yDFeCzAcpqjCBGgI
+and https://youtu.be/ORsJn-71__0?si=t5m-KueXCC8uNOoj
+
+## License
+This game is open-source and free to use, modify, and distribute. Enjoy and have fun!
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome JoannaAdermark1 Adermark,
