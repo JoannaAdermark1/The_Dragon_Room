@@ -111,6 +111,13 @@ Test the "play again" feature at the end of each scenario.
 Confirm that choosing "yes" resets the game, clearing the inventory.
 Verify that choosing "no" exits the game with a farewell message.
 
+## fixed bugs
+Had a problem when run the code in the terminal it showed error.
+
+In the magic_room() function, there was a typo in the message for the red potion. The sentence 
+"You gives a strength boost, which can be used to confront the dragon.!" changed it too
+"You get a strength boost, which can be used to confront the dragon!".
+
 A brief description of the issue.
 Steps to reproduce the issue.
 Expected behavior and actual behavior.
