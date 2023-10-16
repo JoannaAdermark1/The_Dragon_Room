@@ -7,6 +7,9 @@ Your decisions influence the outcome of the story, leading to various endings.
 . How to Play
 . Decision Points
 . Getting Started
+. Testing
+. Fixed bugs
+. Credits
 . License
 
 ## Game Overview
@@ -57,13 +60,9 @@ Follow the on-screen prompts and make your choices.
 # Testing
 
 ## Requirements:
-Python 3.x
-Test Cases:
-1. Test User Name Input
-2. Steps:
-Run the game.
-Enter a name when prompted.
-Verify that the game greets you using the provided name.
+Python3 run,py
+[Enter your name]
+"Greetings, [Your Name]!"
 
 ### 2. Test Door Choices
 Purpose: Ensure that all door choices lead to the correct rooms.
@@ -96,7 +95,8 @@ Confirm that choosing "green" returns you to the start of the game.
 In the Dragon room, test all three choices: steal gold, sneak around, confront the dragon.
 Check that the dragon's reactions are appropriate based on your choices.
 Verify that having the "invisibility potion" or "strength potion" in the inventory affects the outcomes.
-####  Test Play Again Feature
+
+###  Test Play Again Feature
  Ensure the game restarts correctly and clears the inventory.
  ![Screenshot 2023-10-14 at 23 54 24](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/6cc49c2a-97a0-4108-929a-4c40a2905800)
 ![Screenshot 2023-10-14 at 23 58 39](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/ca922b72-ff22-4f6b-899c-2edc800e2620)
@@ -111,26 +111,27 @@ Test the "play again" feature at the end of each scenario.
 Confirm that choosing "yes" resets the game, clearing the inventory.
 Verify that choosing "no" exits the game with a farewell message.
 
-## fixed bugs
-Had a problem when run the code in the terminal it showed error.
+# fixed bugs
+Had a problem when runing the code in the terminal it showed error.
+because else was on a wrong line.
+![Screenshot 2023-10-15 at 08 16 11](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/65a18caf-ffd2-46f6-881b-4662799547db)
 
 In the magic_room() function, there was a typo in the message for the red potion. The sentence 
 "You gives a strength boost, which can be used to confront the dragon.!" changed it too
 "You get a strength boost, which can be used to confront the dragon!".
 
-A brief description of the issue.
-Steps to reproduce the issue.
-Expected behavior and actual behavior.
-Report these findings to joanna.adermark@tutanota.com
-
-## Credits 
+# Credits 
 Basic structure and understanding about python adventures are taken from
+
 LeMaster Tech
 https://youtu.be/u8X6TiJA8as?si=yDFeCzAcpqjCBGgI
 
 Shaun Halverson
 and https://youtu.be/ORsJn-71__0?si=t5m-KueXCC8uNOoj
 
-## License
+# License
 This game is open-source and free to use, modify, and distribute. Enjoy and have fun!
+
+Expected behavior and actual behavior.
+Report these findings to joanna.adermark@tutanota.com
 
