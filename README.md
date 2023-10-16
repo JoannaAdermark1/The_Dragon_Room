@@ -120,6 +120,18 @@ In the magic_room() function, there was a typo in the message for the red potion
 "You gives a strength boost, which can be used to confront the dragon.!" changed it too
 "You get a strength boost, which can be used to confront the dragon!".
 
+# Deployment
+Was deployed using Heroku with the following steps:
+
+Login to Heroku (Create an account if necessary)
+Click New in the Heroku dashboard and select ”Create new app.”
+Write a name for the app and choose your region and click ”Create App.”
+Added two build pack scripts : Python and Nodejs (in that order where python is on top of Nodejs)
+Connected Heroku with GitHub account and the repository that is been working on
+At the bottom, choose to either automatic deploment or manual deploment,
+if you set to automatic you every time you make changes with your code and commit, heroku updated the changes.
+
+
 # Credits 
 Basic structure and understanding about python adventures are taken from
 
