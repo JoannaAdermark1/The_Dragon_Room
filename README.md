@@ -4,22 +4,22 @@ Your decisions influence the outcome of the story, leading to various endings.
 ![Screenshot 2023-10-16 at 23 52 11](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/7761de0e-9376-494a-b2b3-1c054d4d1d76)
 
 ## Table of Contents
-. Game Overview
-. How to Play
-. Decision Points
-. Getting Started
-. Testing
-. Fixed bugs
-. Credits
-. License
+• Game Overview
+• How to Play
+• Decision Points
+• Getting Started
+• Testing
+• Fixed bugs
+• Credits
+• License
 
 ## Game Overview
 After introducing yourself, you find yourself in front of three mysterious doors. 
 Each door leads to a different adventure:
 
-. Door 1: Enter the Dragon's Lair
-. Door 2: Discover a Treasure Room
-. Door 3: Step into a Magic Room with Glowing Potions
+• Door 1: Enter the Dragon's Lair
+• Door 2: Discover a Treasure Room
+• Door 3: Step into a Magic Room with Glowing Potions
 
 Your decisions will determine your fate in this game!
 
@@ -65,16 +65,16 @@ Python3 run,py
 [Enter your name]
 "Greetings, [Your Name]!"
 
-### 2. Test Door Choices
+### Test Door Choices
 Purpose: Ensure that all door choices lead to the correct rooms.
- the "invisibility potion" or "strength potion" in the inventory affects the outcomes.
+the "invisibility potion" or "strength potion" in the inventory affects the outcomes.
 Run the game.
 Purpose: Ensure that the game correctly captures and displays the user's name.
 ![Screenshot 2023-10-14 at 21 36 57](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/77056c36-3373-4414-98f4-ac6891a50660)
 
 ### Choose a door (1, 2, or 3).
 Verify that the game takes you to the correct room (Dragon, Treasure, or Magic room).
-3. Test Inventory System
+### Test Inventory System
 Purpose: Ensure items are correctly added to or removed from the inventory.
 
 ### Navigate to the Treasure Room.
@@ -131,7 +131,8 @@ Click New in the Heroku dashboard and select ”Create new app.”
 
 Write a name for the app and choose your region and click ”Create App.”
 
-Added two build pack scripts : Python and Nodejs in that order where python is on top of Nodejs
+Added two build pack scripts : 
+Python and Nodejs in that order where python is on top of Nodejs
 
 Connected Heroku with GitHub account and the repository that is been working on
 
