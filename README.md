@@ -148,9 +148,10 @@ https://youtu.be/u8X6TiJA8as?si=yDFeCzAcpqjCBGgI
 Shaun Halverson
 and https://youtu.be/ORsJn-71__0?si=t5m-KueXCC8uNOoj
 
+# Acknowledgements
+My Mentor Jubril.
+
+Tutor support and student care at Code Institute for their support.
+
 # License
 This game is open-source and free to use, modify, and distribute. Enjoy and have fun!
-
-Expected behavior and actual behavior.
-Report these findings to joanna.adermark@tutanota.com
-
