@@ -70,36 +70,36 @@ Follow the on-screen prompts and make your choices.
 
 # Flow chart
 
-## Start:
+### Start:
 
 • A "Start" oval at the top.
-## Enter Name:
+### Enter Name:
 • Below the "Start", a rectangle box labeled "Enter Name" connected with an arrow from the "Start" oval.
 
-## Welcome Screen:
+### Welcome Screen:
 • An arrow from the "Enter Name" box leading to a parallelogram (used to depict inputs/outputs) with "Welcome to the Adventure Game!" and the three door choices.
 
-## Decision Box for Door Choice:
+### Decision Box for Door Choice:
 • A diamond (used to represent decisions) with the question, "Which door?"
 Three arrows emerging from the diamond, each labeled "1", "2", and "3" respectively.
 
-## Dragon Room:
+### Dragon Room:
 • For the "1" arrow, lead to a rectangle labeled "Dragon Room".
 • Within the "Dragon Room" section, another decision diamond asking what the player wants to do with arrows for the three options and their respective outcomes.
 
-## Treasure Room:
+### Treasure Room:
 • For the "2" arrow, lead to a rectangle labeled "Treasure Room".
 • Another decision diamond for the chest choice, with arrows for the options and their outcomes.
 
-## Magic Room:
+### Magic Room:
 • For the "3" arrow, lead to a rectangle labeled "Magic Room".
 • Another decision diamond for the potion choice, with arrows for the options and their outcomes. If the green potion is chosen, loop back to the "Welcome Screen" parallelogram.
 
-## Play Again?:
+### Play Again?:
 • From all outcomes, arrows should lead to a decision diamond labeled "Play Again?".
 • Two arrows emerge from this diamond, one for "yes" and one for "no". The "yes" arrow loops back to the "Welcome Screen" parallelogram, while the "no" arrow leads to the end.
 
-## End:
+### End:
 • An "End" oval at the bottom.
 
 Here is a final flowchart design.
