@@ -68,7 +68,7 @@ Copy the game code into a Python file
 Run the game in your terminal or command prompt:
 Follow the on-screen prompts and make your choices.
 
-# Flow chart
+# Flowchart
 
 ### Start:
 
