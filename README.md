@@ -5,19 +5,19 @@ Your decisions influence the outcome of the story, leading to various endings.
 
 ## Table of Contents
 
-• Game Overview
+#### • Game Overview
 
-• How to Play
+#### • How to Play
 
-• Decision Points
+#### • Decision Points
 
-• Getting Started
+#### • Getting Started
 
-• Testing
+#### • Testing
 
-• Fixed bugs
+#### • Fixed bugs
 
-• Credits
+#### • Credits
 
 • License
 
