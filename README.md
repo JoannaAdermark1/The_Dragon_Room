@@ -4,13 +4,21 @@ Your decisions influence the outcome of the story, leading to various endings.
 ![Screenshot 2023-10-16 at 23 52 11](https://github.com/JoannaAdermark1/The_Dragon_Room/assets/137285482/7761de0e-9376-494a-b2b3-1c054d4d1d76)
 
 ## Table of Contents
+
 • Game Overview
+
 • How to Play
+
 • Decision Points
+
 • Getting Started
+
 • Testing
+
 • Fixed bugs
+
 • Credits
+
 • License
 
 ## Game Overview
