@@ -7,7 +7,7 @@ Your decisions influence the outcome of the story, leading to various endings.
  
 ## Table of Contents
 
-#### • Game Overview
+### • Game Overview
 
 ### • How to Play
 
